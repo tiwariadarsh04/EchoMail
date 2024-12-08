@@ -3,7 +3,9 @@ gunicorn
 whitenoise
 speechrecognition
 gTTS
-playsound
+playsound==1.2.2
 django-crispy-forms
 # Commenting out PyAudio as it requires system-level dependencies
 # pyaudio
+# Additional requirements for PythonAnywhere
+mysqlclient
