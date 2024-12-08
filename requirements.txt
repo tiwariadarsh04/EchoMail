@@ -1,6 +1,9 @@
 django>=3.2.0
+gunicorn
+whitenoise
 speechrecognition
-pyaudio
 gTTS
 playsound
 django-crispy-forms
+# Commenting out PyAudio as it requires system-level dependencies
+# pyaudio
